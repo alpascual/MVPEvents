@@ -1,0 +1,1568 @@
+TMVPEvents
+v7
+r0
+t317368292.265578
+cCheck dependencies
+cCpResource build/Debug-iphoneos/MVPEvents.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/Info.plist" MVPEvents-Info.plist
+cCompileXIB "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/DetailTableViewController.xib"
+cCompileXIB "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneAbout.xib"
+cCompileXIB "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.xib"
+cCompileXIB "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/MainWindow_iPhone.xib"
+cCompileXIB "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/MainWindow_iPad.xib"
+cCompileXIB "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadFeedsController.xib"
+cCompileXIB "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadSurface.xib"
+cCpResource build/Debug-iphoneos/MVPEvents.app/About.htm Resources/About.htm
+cCopyPNGFile "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/Icon-72.png" Resources/Icon-72.png
+cCopyPNGFile "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/Icon.png" Resources/Icon.png
+cCopyPNGFile "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/Icon@2x.png" Resources/Icon@2x.png
+cProcessPCH /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-aonwchjsbgwgndhdrilgqjtbyvvq/MVPEvents_Prefix.pch.gch MVPEvents_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-apgoawqlkbciezdvzkonclseihhw/MVPEvents_Prefix.pch.gch MVPEvents_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cDataModelVersionCompile "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/MVPEvents.momd" "/Users/alpascual/Pet Projects/MVPEvents/Shared/MVPEvents.xcdatamodeld"
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/main.o "/Users/alpascual/Pet Projects/MVPEvents/Shared/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/AppDelegate_Shared.o "/Users/alpascual/Pet Projects/MVPEvents/Shared/AppDelegate_Shared.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/AppDelegate_iPhone.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/AppDelegate_iPhone.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/DetailTableViewController.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/DetailTableViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/iPhoneAbout.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneAbout.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/iPhoneFeedsController.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/AppDelegate_iPad.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/iPadFeedsController.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadFeedsController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/iPadSurface.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadSurface.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/FeedsParser.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/FeedsParser.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/GTMNSString+HTML.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/GTMNSString+HTML.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/MWFeedInfo.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedInfo.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/MWFeedItem.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedItem.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/MWFeedParser.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedParser.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/NSDate+InternetDateTime.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSDate+InternetDateTime.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/NSString+HTML.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSString+HTML.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/NSString+XMLEntities.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSString+XMLEntities.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/FeedsConfig.o "/Users/alpascual/Pet Projects/MVPEvents/FeedsConfig.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/MVPEvents" normal armv6
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/main.o "/Users/alpascual/Pet Projects/MVPEvents/Shared/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/AppDelegate_Shared.o "/Users/alpascual/Pet Projects/MVPEvents/Shared/AppDelegate_Shared.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/AppDelegate_iPhone.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/AppDelegate_iPhone.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/DetailTableViewController.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/DetailTableViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/iPhoneAbout.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneAbout.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/iPhoneFeedsController.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/AppDelegate_iPad.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/iPadFeedsController.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadFeedsController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/iPadSurface.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadSurface.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/FeedsParser.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/FeedsParser.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/GTMNSString+HTML.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/GTMNSString+HTML.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/MWFeedInfo.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedInfo.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/MWFeedItem.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedItem.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/MWFeedParser.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedParser.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/NSDate+InternetDateTime.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSDate+InternetDateTime.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/NSString+HTML.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSString+HTML.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/NSString+XMLEntities.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSString+XMLEntities.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/FeedsConfig.o "/Users/alpascual/Pet Projects/MVPEvents/FeedsConfig.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/MVPEvents" normal armv7
+cCreateUniversalBinary "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/MVPEvents" normal "armv6 armv7"
+cGenerateDSYMFile "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app.dSYM" "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/MVPEvents"
+cProcessProductPackaging "/Users/alpascual/Library/MobileDevice/Provisioning Profiles/3CB1BF22-4A1E-4EC3-9A9E-50E6777AFFBC.mobileprovision" "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/embedded.mobileprovision"
+cTouch "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents.xcent"
+cCodeSign "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004CC10FA70000000000300DE0
+t1287720871
+s3149280
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004CC10F8D000000000000046B
+t1287720845
+s1131
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MFMailComposeViewController.h
+c000000004CC11D17000000000000291C
+t1287724311
+s10524
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.h
+c000000004CC11D1700000000000000CD
+t1287724311
+s205
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004CC11D2E0000000000112F80
+t1287724334
+s1126272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/iAd.framework/Headers/iAd.h
+c000000004CC12BDD0000000000000071
+t1287728093
+s113
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/Availability.h
+c000000004CB3FBB80000000000001ADD
+t1286863800
+s6877
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/AvailabilityMacros.h
+c000000004CB3FBB8000000000000673C
+t1286863800
+s26428
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/TargetConditionals.h
+c000000004CB3FBB800000000000031E9
+t1286863800
+s12777
+
+N/Users/alpascual/Library/MobileDevice/Provisioning Profiles/3CB1BF22-4A1E-4EC3-9A9E-50E6777AFFBC.mobileprovision
+c000000004D1ABC0A0000000000001CC2
+t1293597706
+s7362
+
+N/Users/alpascual/Pet Projects/MVPEvents/../DeviceAlarm/Resources/Default.png
+c000000004D2269310000000000015B91
+t1294100785
+s88977
+
+N/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/FeedsConfig.h
+c000000004D5F4C44000000000000012B
+t1298091076
+s299
+i<Foundation/Foundation.h>
+
+N/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/FeedsParser.h
+c000000004D3210A4000000000000023E
+t1295126692
+s574
+i<Foundation/Foundation.h>
+i"MWFeedParser.h"
+
+N/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/FeedsParser.m
+c000000004D3212C800000000000009BA
+t1295127240
+s2490
+i"FeedsParser.h"
+
+N/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/AppDelegate_Shared.h
+c000000004D3125E3000000000000035F
+t1295066595
+s863
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/GTMNSString+HTML.m
+c000000004D1A2CCE00000000000036BB
+t1293561038
+s14011
+i"GTMDefines.h"
+i"GTMNSString+HTML.h"
+
+N/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedInfo.m
+c000000004D1A2CCE0000000000000A25
+t1293561038
+s2597
+i"MWFeedInfo.h"
+
+N/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedItem.m
+c000000004D1A2CCE0000000000000D73
+t1293561038
+s3443
+i"MWFeedItem.h"
+
+N/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedParser.h
+c000000004D3212A3000000000000135B
+t1295127203
+s4955
+i<Foundation/Foundation.h>
+i"MWFeedInfo.h"
+i"MWFeedItem.h"
+
+N/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedParser.m
+c000000004D3212970000000000007ACD
+t1295127191
+s31437
+i"MWFeedParser.h"
+i"MWFeedParser_Private.h"
+i"NSString+HTML.h"
+i"NSDate+InternetDateTime.h"
+
+N/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSDate+InternetDateTime.m
+c000000004D1A2CCE000000000000121F
+t1293561038
+s4639
+i"NSDate+InternetDateTime.h"
+
+N/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSString+HTML.h
+c000000004D1A2CCE000000000000075A
+t1293561038
+s1882
+i<Foundation/Foundation.h>
+
+N/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSString+HTML.m
+c000000004D1A2CCE000000000000265A
+t1293561038
+s9818
+i"NSString+HTML.h"
+i"GTMNSString+HTML.h"
+
+N/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSString+XMLEntities.m
+c000000004D1A2CCE00000000000006DE
+t1293561038
+s1758
+i"NSString+XMLEntities.h"
+
+N/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/SubstitutableDetailViewController.h
+c000000004D3524B50000000000000179
+t1295328437
+s377
+i<UIKit/UIKit.h>
+
+N/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m
+c000000004D389C480000000000000993
+t1295555656
+s2451
+i"AppDelegate_iPad.h"
+
+N/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/MainWindow_iPad.xib
+c000000004D3125E300000000000038A5
+t1295066595
+s14501
+
+N/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadFeedsController.h
+c000000004D3524D5000000000000030D
+t1295328469
+s781
+i<UIKit/UIKit.h>
+i"iPhoneFeedsController.h"
+i"DetailTableViewController.h"
+i"SubstitutableDetailViewController.h"
+
+N/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadFeedsController.m
+c000000004D3523570000000000001322
+t1295328087
+s4898
+i"iPadFeedsController.h"
+
+N/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadFeedsController.xib
+c000000004D37167C0000000000003D45
+t1295455868
+s15685
+
+N/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadSurface.h
+c000000004D57DFFB00000000000004A9
+t1297604603
+s1193
+i<UIKit/UIKit.h>
+i<MessageUI/MessageUI.h>
+i<MessageUI/MFMailComposeViewController.h>
+i"iPhoneFeedsController.h"
+i"DetailTableViewController.h"
+i"iPhoneAbout.h"
+
+N/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadSurface.m
+c000000004D5F48BF00000000000014AC
+t1298090175
+s5292
+i"iPadSurface.h"
+
+N/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadSurface.xib
+c000000004D5EC23100000000000069BA
+t1298055729
+s27066
+
+N/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/AppDelegate_iPhone.m
+c000000004D321A550000000000000BEB
+t1295129173
+s3051
+i"AppDelegate_iPhone.h"
+
+N/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/DetailTableViewController.m
+c000000004D4C471C0000000000002040
+t1296844572
+s8256
+i"DetailTableViewController.h"
+i"NSString+HTML.h"
+
+N/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/DetailTableViewController.xib
+c000000004D6D52D9000000000000640F
+t1299010265
+s25615
+
+N/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/MainWindow_iPhone.xib
+c000000004D31CE310000000000005842
+t1295109681
+s22594
+
+N/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/SearchController.m
+c000000004D6004130000000000000772
+t1298138131
+s1906
+i"SearchController.h"
+
+N/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/SearchController.xib
+c000000004D6004100000000000005C66
+t1298138128
+s23654
+
+N/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneAbout.m
+c000000004D38AD6100000000000009D0
+t1295560033
+s2512
+i"iPhoneAbout.h"
+
+N/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneAbout.xib
+c000000004D38FD560000000000006185
+t1295580502
+s24965
+
+N/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m
+c000000004D6BFC1600000000000031F0
+t1298922518
+s12784
+i"iPhoneFeedsController.h"
+
+N/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.xib
+c000000004D6BF9400000000000007FAA
+t1298921792
+s32682
+
+N/Users/alpascual/Pet Projects/MVPEvents/FeedsConfig.h
+c000000004D648D650000000000000124
+t1298435429
+s292
+i<Foundation/Foundation.h>
+
+N/Users/alpascual/Pet Projects/MVPEvents/FeedsConfig.m
+c000000004D648D6B000000000000024A
+t1298435435
+s586
+i"FeedsConfig.h"
+
+N/Users/alpascual/Pet Projects/MVPEvents/MVPEvents_Prefix.pch
+c000000004D39161000000000000000BB
+t1295586832
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/alpascual/Pet Projects/MVPEvents/Resources/About.htm
+c000000004D3A6F470000000000000408
+t1295675207
+s1032
+
+N/Users/alpascual/Pet Projects/MVPEvents/Resources/Icon-72.png
+c000000004D39F80D0000000000002A4D
+t1295644685
+s10829
+
+N/Users/alpascual/Pet Projects/MVPEvents/Resources/Icon.png
+c000000004D39F7A80000000000001BEF
+t1295644584
+s7151
+
+N/Users/alpascual/Pet Projects/MVPEvents/Resources/Icon@2x.png
+c000000004D39F82E00000000000059BC
+t1295644718
+s22972
+
+N/Users/alpascual/Pet Projects/MVPEvents/Shared/AppDelegate_Shared.h
+c000000004D3916100000000000000359
+t1295586832
+s857
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/alpascual/Pet Projects/MVPEvents/Shared/AppDelegate_Shared.m
+c000000004D391610000000000000175E
+t1295586832
+s5982
+i"AppDelegate_Shared.h"
+
+N/Users/alpascual/Pet Projects/MVPEvents/Shared/MVPEvents.xcdatamodeld
+c000000004D3916100000000000000088
+t1295586832
+s136
+
+N/Users/alpascual/Pet Projects/MVPEvents/Shared/main.m
+c000000004D391610000000000000015E
+t1295586832
+s350
+i<UIKit/UIKit.h>
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app
+t1295675478
+s714
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app.dSYM
+t1295675343
+s102
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/About.htm
+t1295675340
+s1032
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/Default.png
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/DetailTableViewController.nib
+t1295675339
+s1518
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/Icon-72.png
+t1295675340
+s10586
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/Icon.png
+t1295675340
+s6964
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/Icon@2x.png
+t1295675340
+s21557
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/Info.plist
+t1295675338
+s1170
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/MVPEvents
+t1295675343
+s332704
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/MVPEvents.momd
+t1295675341
+s136
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/MainWindow_iPad.nib
+t1295675340
+s982
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/MainWindow_iPhone.nib
+t1295675339
+s1299
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/PkgInfo
+t1295675338
+s8
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/ResourceRules.plist
+t1295675338
+s485
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/SearchController.nib
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/embedded.mobileprovision
+t1295675343
+s7362
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/iPadFeedsController.nib
+t1295675340
+s663
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/iPadSurface.nib
+t1295675340
+s1113
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/iPhoneAbout.nib
+t1295675339
+s1466
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/iPhoneFeedsController.nib
+t1295675339
+s1377
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents.xcent
+t1295675343
+s420
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/AppDelegate_Shared.o
+t1295675341
+s58472
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/AppDelegate_iPad.o
+t1295675341
+s58388
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/AppDelegate_iPhone.o
+t1295675341
+s57316
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/DetailTableViewController.o
+t1295675341
+s71084
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/FeedsConfig.o
+t1295675342
+s8220
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/FeedsParser.o
+t1295675341
+s54756
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/GTMNSString+HTML.o
+t1295675341
+s32488
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/MVPEvents
+t1295675342
+s158388
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/MVPEvents.LinkFileList
+c000000004D3A6FCA0000000000000947
+t1295675338
+s2375
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/MWFeedInfo.o
+t1295675341
+s14684
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/MWFeedItem.o
+t1295675342
+s21708
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/MWFeedParser.o
+t1295675342
+s87196
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/NSDate+InternetDateTime.o
+t1295675342
+s16064
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/NSString+HTML.o
+t1295675342
+s21584
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/NSString+XMLEntities.o
+t1295675342
+s7040
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/SearchController.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/iPadFeedsController.o
+t1295675341
+s57476
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/iPadSurface.o
+t1295675341
+s52344
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/iPhoneAbout.o
+t1295675341
+s51624
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/iPhoneFeedsController.o
+t1295675341
+s66052
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/main.o
+t1295675341
+s6464
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/AppDelegate_Shared.o
+t1295675342
+s58316
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/AppDelegate_iPad.o
+t1295675342
+s58248
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/AppDelegate_iPhone.o
+t1295675342
+s57180
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/DetailTableViewController.o
+t1295675342
+s70444
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/FeedsConfig.o
+t1295675343
+s8200
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/FeedsParser.o
+t1295675342
+s54576
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/GTMNSString+HTML.o
+t1295675342
+s32004
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/MVPEvents
+t1295675343
+s154112
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/MVPEvents.LinkFileList
+c000000004D3A6FCA0000000000000947
+t1295675338
+s2375
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/MWFeedInfo.o
+t1295675342
+s14476
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/MWFeedItem.o
+t1295675343
+s21288
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/MWFeedParser.o
+t1295675343
+s85568
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/NSDate+InternetDateTime.o
+t1295675343
+s15744
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/NSString+HTML.o
+t1295675343
+s21140
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/NSString+XMLEntities.o
+t1295675343
+s7024
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/SearchController.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/iPadFeedsController.o
+t1295675342
+s57140
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/iPadSurface.o
+t1295675342
+s52120
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/iPhoneAbout.o
+t1295675342
+s51436
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/iPhoneFeedsController.o
+t1295675342
+s65680
+
+N/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/main.o
+t1295675342
+s6448
+
+N/Users/alpascual/Pet Projects/SilverlightNews/FeedsParser.h
+c000000004D3210A4000000000000023E
+t1295126692
+s574
+i<Foundation/Foundation.h>
+i"MWFeedParser.h"
+
+N/Users/alpascual/Pet Projects/SilverlightNews/Shared/GTMDefines.h
+c000000004D1A2CCE0000000000002E51
+t1293561038
+s11857
+i<AvailabilityMacros.h>
+i<TargetConditionals.h>
+i<Availability.h>
+
+N/Users/alpascual/Pet Projects/SilverlightNews/Shared/GTMNSString+HTML.h
+c000000004D1A2CCE00000000000008F0
+t1293561038
+s2288
+i<Foundation/Foundation.h>
+
+N/Users/alpascual/Pet Projects/SilverlightNews/Shared/MWFeedInfo.h
+c000000004D1A2CCE00000000000006DD
+t1293561038
+s1757
+i<Foundation/Foundation.h>
+
+N/Users/alpascual/Pet Projects/SilverlightNews/Shared/MWFeedItem.h
+c000000004D1A2CCE00000000000009D8
+t1293561038
+s2520
+i<Foundation/Foundation.h>
+
+N/Users/alpascual/Pet Projects/SilverlightNews/Shared/MWFeedParser.h
+c000000004D3212A3000000000000135B
+t1295127203
+s4955
+i<Foundation/Foundation.h>
+i"MWFeedInfo.h"
+i"MWFeedItem.h"
+
+N/Users/alpascual/Pet Projects/SilverlightNews/Shared/MWFeedParser_Private.h
+c000000004D1A2CCE0000000000000AD5
+t1293561038
+s2773
+
+N/Users/alpascual/Pet Projects/SilverlightNews/Shared/NSDate+InternetDateTime.h
+c000000004D1A2CCE0000000000000262
+t1293561038
+s610
+i<Foundation/Foundation.h>
+
+N/Users/alpascual/Pet Projects/SilverlightNews/Shared/NSString+HTML.h
+c000000004D1A2CCE000000000000075A
+t1293561038
+s1882
+i<Foundation/Foundation.h>
+
+N/Users/alpascual/Pet Projects/SilverlightNews/Shared/NSString+XMLEntities.h
+c000000004D1A2CCE00000000000006C8
+t1293561038
+s1736
+i<Foundation/Foundation.h>
+i"NSString+HTML.h"
+
+N/Users/alpascual/Pet Projects/SilverlightNews/SubstitutableDetailViewController.h
+c000000004D3524B50000000000000179
+t1295328437
+s377
+i<UIKit/UIKit.h>
+
+N/Users/alpascual/Pet Projects/SilverlightNews/iPad/AppDelegate_iPad.h
+c000000004D389B0C0000000000000306
+t1295555340
+s774
+i<UIKit/UIKit.h>
+i"AppDelegate_Shared.h"
+i"iPadFeedsController.h"
+i"iPadSurface.h"
+
+N/Users/alpascual/Pet Projects/SilverlightNews/iPadFeedsController.h
+c000000004D3524D5000000000000030D
+t1295328469
+s781
+i<UIKit/UIKit.h>
+i"iPhoneFeedsController.h"
+i"DetailTableViewController.h"
+i"SubstitutableDetailViewController.h"
+
+N/Users/alpascual/Pet Projects/SilverlightNews/iPadSurface.h
+c000000004D57DFFB00000000000004A9
+t1297604603
+s1193
+i<UIKit/UIKit.h>
+i<MessageUI/MessageUI.h>
+i<MessageUI/MFMailComposeViewController.h>
+i"iPhoneFeedsController.h"
+i"DetailTableViewController.h"
+i"iPhoneAbout.h"
+
+N/Users/alpascual/Pet Projects/SilverlightNews/iPhone/AppDelegate_iPhone.h
+c000000004D3219850000000000000264
+t1295128965
+s612
+i<UIKit/UIKit.h>
+i"AppDelegate_Shared.h"
+i"iPhoneFeedsController.h"
+
+N/Users/alpascual/Pet Projects/SilverlightNews/iPhone/DetailTableViewController.h
+c000000004D4C46C2000000000000095F
+t1296844482
+s2399
+i<UIKit/UIKit.h>
+i<iAd/iAd.h>
+i"MWFeedItem.h"
+i"SubstitutableDetailViewController.h"
+i"iPhoneAbout.h"
+
+N/Users/alpascual/Pet Projects/SilverlightNews/iPhone/SearchController.h
+c000000004D6BEFCC00000000000001B4
+t1298919372
+s436
+i<UIKit/UIKit.h>
+
+N/Users/alpascual/Pet Projects/SilverlightNews/iPhone/iPhoneAbout.h
+c000000004D38A7BA000000000000029B
+t1295558586
+s667
+i<UIKit/UIKit.h>
+
+N/Users/alpascual/Pet Projects/SilverlightNews/iPhone/iPhoneFeedsController.h
+c000000004D6BF3FC00000000000005EF
+t1298920444
+s1519
+i<UIKit/UIKit.h>
+i<MessageUI/MessageUI.h>
+i<MessageUI/MFMailComposeViewController.h>
+i"FeedsParser.h"
+i"FeedsConfig.h"
+i"DetailTableViewController.h"
+i"iPhoneAbout.h"
+i"SubstitutableDetailViewController.h"
+i"SearchController.h"
+
+N/var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-aonwchjsbgwgndhdrilgqjtbyvvq/MVPEvents_Prefix.pch.gch
+t1295675341
+s9983704
+
+N/var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-apgoawqlkbciezdvzkonclseihhw/MVPEvents_Prefix.pch.gch
+t1295675341
+s10446552
+
+NMVPEvents-Info.plist
+c000000004D6D526700000000000005F2
+t1299010151
+s1522
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies317368292#317368292#0(0"0(0#1#0"8623295616#0"0#
+
+CCodeSign "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app"
+s317368278.693980
+e317368278.948993
+r1
+xCodeSign
+x/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app
+o/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app: replacing existing signature
+lSLF07#2@43"CodeSign build/Debug-iphoneos/MVPEvents.app317368278#317368278#0(105"/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app: replacing existing signature0(0#0#74"/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app8617545152#672"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Albert Pascual (3D4FKWXDK6)" "--resource-rules=/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/ResourceRules.plist" --entitlements "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents.xcent" "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/AppDelegate_Shared.o "/Users/alpascual/Pet Projects/MVPEvents/Shared/AppDelegate_Shared.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317368141.412416
+e317368141.520216
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/AppDelegate_Shared.o
+x/Users/alpascual/Pet Projects/MVPEvents/Shared/AppDelegate_Shared.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/alpascual/Pet Projects/MVPEvents/Shared/AppDelegate_Shared.m317368141#317368141#0(0"0(0#0#67"/Users/alpascual/Pet Projects/MVPEvents/Shared/AppDelegate_Shared.m8619938272#1832"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv6" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-aonwchjsbgwgndhdrilgqjtbyvvq/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/Shared/AppDelegate_Shared.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/AppDelegate_Shared.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/AppDelegate_iPad.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317368141.660976
+e317368141.762482
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/AppDelegate_iPad.o
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m:87: warning: property 'window' requires method '-window' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m:87: warning: property 'window' requires the method 'setWindow:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m:87: warning: property 'splitViewController' requires method '-splitViewController' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m:87: warning: property 'splitViewController' requires the method 'setSplitViewController:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@90"Compile /Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m317368141#317368141#0(934"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m:87: warning: property 'window' requires method '-window' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m:87: warning: property 'window' requires the method 'setWindow:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m:87: warning: property 'splitViewController' requires method '-splitViewController' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m:87: warning: property 'splitViewController' requires the method 'setSplitViewController:' to be defined - use @synthesize, @dynamic or provide a method implementation4(22@120"Property 'window' requires method '-window' to be defined - use @synthesize, @dynamic or provide a method implementation317368141#0#217#0(6@82"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m317248456#87#0#87#0#0"0(22@127"Property 'window' requires the method 'setWindow:' to be defined - use @synthesize, @dynamic or provide a method implementation317368141#217#224#0(6@82"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m317248456#87#0#87#0#0"0(22@146"Property 'splitViewController' requires method '-splitViewController' to be defined - use @synthesize, @dynamic or provide a method implementation317368141#441#243#0(6@82"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m317248456#87#0#87#0#0"0(22@153"Property 'splitViewController' requires the method 'setSplitViewController:' to be defined - use @synthesize, @dynamic or provide a method implementation317368141#684#250#0(6@82"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m317248456#87#0#87#0#0"0(0#0#82"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m8605526112#1845"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv6" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-aonwchjsbgwgndhdrilgqjtbyvvq/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/AppDelegate_iPad.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/AppDelegate_iPhone.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/AppDelegate_iPhone.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317368141.416631
+e317368141.529260
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/AppDelegate_iPhone.o
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/AppDelegate_iPhone.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/AppDelegate_iPhone.m:92: warning: property 'window' requires method '-window' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/AppDelegate_iPhone.m:92: warning: property 'window' requires the method 'setWindow:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@94"Compile /Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/AppDelegate_iPhone.m317368141#317368141#0(449"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/AppDelegate_iPhone.m:92: warning: property 'window' requires method '-window' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/AppDelegate_iPhone.m:92: warning: property 'window' requires the method 'setWindow:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@120"Property 'window' requires method '-window' to be defined - use @synthesize, @dynamic or provide a method implementation317368141#0#221#0(6@86"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/AppDelegate_iPhone.m316821973#92#0#92#0#0"0(22@127"Property 'window' requires the method 'setWindow:' to be defined - use @synthesize, @dynamic or provide a method implementation317368141#221#228#0(6@86"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/AppDelegate_iPhone.m316821973#92#0#92#0#0"0(0#0#86"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/AppDelegate_iPhone.m8619389728#1851"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv6" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-aonwchjsbgwgndhdrilgqjtbyvvq/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/AppDelegate_iPhone.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/AppDelegate_iPhone.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/DetailTableViewController.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/DetailTableViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317368141.520317
+e317368141.660880
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/DetailTableViewController.o
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/DetailTableViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/DetailTableViewController.m317368141#317368141#0(0"0(0#0#93"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/DetailTableViewController.m8621109952#1865"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv6" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-aonwchjsbgwgndhdrilgqjtbyvvq/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/DetailTableViewController.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/DetailTableViewController.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/FeedsConfig.o "/Users/alpascual/Pet Projects/MVPEvents/FeedsConfig.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317368142.287397
+e317368142.344470
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/FeedsConfig.o
+x/Users/alpascual/Pet Projects/MVPEvents/FeedsConfig.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/alpascual/Pet Projects/MVPEvents/FeedsConfig.m317368142#317368142#0(0"0(0#0#53"/Users/alpascual/Pet Projects/MVPEvents/FeedsConfig.m8620535616#1811"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv6" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-aonwchjsbgwgndhdrilgqjtbyvvq/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/FeedsConfig.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/FeedsConfig.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/FeedsParser.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/FeedsParser.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317368141.844538
+e317368141.924330
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/FeedsParser.o
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/FeedsParser.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/FeedsParser.m317368141#317368141#0(0"0(0#0#72"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/FeedsParser.m8621048224#1830"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv6" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-aonwchjsbgwgndhdrilgqjtbyvvq/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/FeedsParser.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/FeedsParser.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/GTMNSString+HTML.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/GTMNSString+HTML.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317368141.874054
+e317368141.985262
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/GTMNSString+HTML.o
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/GTMNSString+HTML.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/GTMNSString+HTML.m317368141#317368141#0(0"0(0#0#84"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/GTMNSString+HTML.m8620661088#1847"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv6" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-aonwchjsbgwgndhdrilgqjtbyvvq/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/GTMNSString+HTML.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/GTMNSString+HTML.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/MWFeedInfo.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedInfo.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317368141.924431
+e317368142.002683
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/MWFeedInfo.o
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedInfo.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedInfo.m317368141#317368142#0(0"0(0#0#78"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedInfo.m8620006240#1835"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv6" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-aonwchjsbgwgndhdrilgqjtbyvvq/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedInfo.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/MWFeedInfo.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/MWFeedItem.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedItem.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317368141.985372
+e317368142.073073
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/MWFeedItem.o
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedItem.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedItem.m317368141#317368142#0(0"0(0#0#78"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedItem.m8618911520#1835"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv6" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-aonwchjsbgwgndhdrilgqjtbyvvq/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedItem.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/MWFeedItem.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/MWFeedParser.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedParser.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317368142.002781
+e317368142.287224
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/MWFeedParser.o
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedParser.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedParser.m317368142#317368142#0(0"0(0#0#80"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedParser.m8618295808#1839"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv6" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-aonwchjsbgwgndhdrilgqjtbyvvq/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedParser.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/MWFeedParser.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/NSDate+InternetDateTime.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSDate+InternetDateTime.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317368142.073171
+e317368142.148377
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/NSDate+InternetDateTime.o
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSDate+InternetDateTime.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSDate+InternetDateTime.m317368142#317368142#0(0"0(0#0#91"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSDate+InternetDateTime.m8607043808#1861"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv6" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-aonwchjsbgwgndhdrilgqjtbyvvq/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSDate+InternetDateTime.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/NSDate+InternetDateTime.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/NSString+HTML.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSString+HTML.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317368142.148492
+e317368142.252219
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/NSString+HTML.o
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSString+HTML.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSString+HTML.m317368142#317368142#0(0"0(0#0#81"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSString+HTML.m8604104960#1841"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv6" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-aonwchjsbgwgndhdrilgqjtbyvvq/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSString+HTML.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/NSString+HTML.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/NSString+XMLEntities.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSString+XMLEntities.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317368142.252321
+e317368142.307908
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/NSString+XMLEntities.o
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSString+XMLEntities.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSString+XMLEntities.m317368142#317368142#0(0"0(0#0#88"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSString+XMLEntities.m8621628640#1855"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv6" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-aonwchjsbgwgndhdrilgqjtbyvvq/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSString+XMLEntities.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/NSString+XMLEntities.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/SearchController.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/SearchController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/iPadFeedsController.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadFeedsController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317368141.732790
+e317368141.873956
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/iPadFeedsController.o
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadFeedsController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadFeedsController.m317368141#317368141#0(0"0(0#0#80"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadFeedsController.m8618718496#1846"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv6" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-aonwchjsbgwgndhdrilgqjtbyvvq/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadFeedsController.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/iPadFeedsController.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/iPadSurface.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadSurface.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317368141.762582
+e317368141.844351
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/iPadSurface.o
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadSurface.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadSurface.m317368141#317368141#0(0"0(0#0#72"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadSurface.m8604753312#1830"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv6" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-aonwchjsbgwgndhdrilgqjtbyvvq/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadSurface.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/iPadSurface.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/iPhoneAbout.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneAbout.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317368141.529361
+e317368141.610220
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/iPhoneAbout.o
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneAbout.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneAbout.m317368141#317368141#0(0"0(0#0#79"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneAbout.m8620553600#1837"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv6" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-aonwchjsbgwgndhdrilgqjtbyvvq/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneAbout.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/iPhoneAbout.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/iPhoneFeedsController.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317368141.610318
+e317368141.732681
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/iPhoneFeedsController.o
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m: In function '-[iPhoneFeedsController tableView:cellForRowAtIndexPath:]':
+o/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m:120: warning: 'NSString' may not respond to '-stringByConvertingHTMLToPlainText'
+o/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m:120: warning: (Messages without a matching method signature
+o/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m:120: warning: will be assumed to return 'id' and accept
+o/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m:120: warning: '...' as arguments.)
+o/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m:121: warning: 'NSString' may not respond to '-stringByConvertingHTMLToPlainText'
+lSLF07#2@97"Compile /Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m317368141#317368141#0(927"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m: In function '-[iPhoneFeedsController tableView:cellForRowAtIndexPath:]':/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m:120: warning: 'NSString' may not respond to '-stringByConvertingHTMLToPlainText'/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m:120: warning: (Messages without a matching method signature/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m:120: warning: will be assumed to return 'id' and accept/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m:120: warning: '...' as arguments.)/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m:121: warning: 'NSString' may not respond to '-stringByConvertingHTMLToPlainText'3(22@66"'NSString' may not respond to '-stringByConvertingHTMLToPlainText'317368141#164#171#0(6@89"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m317338188#120#0#120#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)317368141#335#150#0(6@89"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m317338188#120#0#120#0#0"0(22@66"'NSString' may not respond to '-stringByConvertingHTMLToPlainText'317368141#756#171#0(6@89"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m317338188#121#0#121#0#26"'*' may not respond to '*'0(0#0#89"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m8620072384#1857"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv6" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-aonwchjsbgwgndhdrilgqjtbyvvq/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/iPhoneFeedsController.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/main.o "/Users/alpascual/Pet Projects/MVPEvents/Shared/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317368141.361773
+e317368141.412317
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/main.o
+x/Users/alpascual/Pet Projects/MVPEvents/Shared/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/alpascual/Pet Projects/MVPEvents/Shared/main.m317368141#317368141#0(0"0(0#0#53"/Users/alpascual/Pet Projects/MVPEvents/Shared/main.m8620271584#1804"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv6" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-aonwchjsbgwgndhdrilgqjtbyvvq/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/Shared/main.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/main.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/AppDelegate_Shared.o "/Users/alpascual/Pet Projects/MVPEvents/Shared/AppDelegate_Shared.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317368142.365514
+e317368142.460820
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/AppDelegate_Shared.o
+x/Users/alpascual/Pet Projects/MVPEvents/Shared/AppDelegate_Shared.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/alpascual/Pet Projects/MVPEvents/Shared/AppDelegate_Shared.m317368142#317368142#0(0"0(0#0#67"/Users/alpascual/Pet Projects/MVPEvents/Shared/AppDelegate_Shared.m8621753632#1832"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv7" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-apgoawqlkbciezdvzkonclseihhw/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/Shared/AppDelegate_Shared.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/AppDelegate_Shared.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/AppDelegate_iPad.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317368142.619537
+e317368142.712251
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/AppDelegate_iPad.o
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m:87: warning: property 'window' requires method '-window' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m:87: warning: property 'window' requires the method 'setWindow:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m:87: warning: property 'splitViewController' requires method '-splitViewController' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m:87: warning: property 'splitViewController' requires the method 'setSplitViewController:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@90"Compile /Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m317368142#317368142#0(934"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m:87: warning: property 'window' requires method '-window' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m:87: warning: property 'window' requires the method 'setWindow:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m:87: warning: property 'splitViewController' requires method '-splitViewController' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m:87: warning: property 'splitViewController' requires the method 'setSplitViewController:' to be defined - use @synthesize, @dynamic or provide a method implementation4(22@120"Property 'window' requires method '-window' to be defined - use @synthesize, @dynamic or provide a method implementation317368142#0#217#0(6@82"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m317248456#87#0#87#0#0"0(22@127"Property 'window' requires the method 'setWindow:' to be defined - use @synthesize, @dynamic or provide a method implementation317368142#217#224#0(6@82"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m317248456#87#0#87#0#0"0(22@146"Property 'splitViewController' requires method '-splitViewController' to be defined - use @synthesize, @dynamic or provide a method implementation317368142#441#243#0(6@82"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m317248456#87#0#87#0#0"0(22@153"Property 'splitViewController' requires the method 'setSplitViewController:' to be defined - use @synthesize, @dynamic or provide a method implementation317368142#684#250#0(6@82"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m317248456#87#0#87#0#0"0(0#0#82"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m8619974944#1845"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv7" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-apgoawqlkbciezdvzkonclseihhw/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/AppDelegate_iPad.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/AppDelegate_iPad.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/AppDelegate_iPhone.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/AppDelegate_iPhone.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317368142.395266
+e317368142.522769
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/AppDelegate_iPhone.o
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/AppDelegate_iPhone.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/AppDelegate_iPhone.m:92: warning: property 'window' requires method '-window' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/AppDelegate_iPhone.m:92: warning: property 'window' requires the method 'setWindow:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@94"Compile /Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/AppDelegate_iPhone.m317368142#317368142#0(449"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/AppDelegate_iPhone.m:92: warning: property 'window' requires method '-window' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/AppDelegate_iPhone.m:92: warning: property 'window' requires the method 'setWindow:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@120"Property 'window' requires method '-window' to be defined - use @synthesize, @dynamic or provide a method implementation317368142#0#221#0(6@86"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/AppDelegate_iPhone.m316821973#92#0#92#0#0"0(22@127"Property 'window' requires the method 'setWindow:' to be defined - use @synthesize, @dynamic or provide a method implementation317368142#221#228#0(6@86"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/AppDelegate_iPhone.m316821973#92#0#92#0#0"0(0#0#86"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/AppDelegate_iPhone.m8618217536#1851"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv7" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-apgoawqlkbciezdvzkonclseihhw/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/AppDelegate_iPhone.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/AppDelegate_iPhone.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/DetailTableViewController.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/DetailTableViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317368142.460917
+e317368142.596364
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/DetailTableViewController.o
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/DetailTableViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/DetailTableViewController.m317368142#317368142#0(0"0(0#0#93"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/DetailTableViewController.m8605047520#1865"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv7" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-apgoawqlkbciezdvzkonclseihhw/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/DetailTableViewController.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/DetailTableViewController.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/FeedsConfig.o "/Users/alpascual/Pet Projects/MVPEvents/FeedsConfig.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317368143.215990
+e317368143.265235
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/FeedsConfig.o
+x/Users/alpascual/Pet Projects/MVPEvents/FeedsConfig.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/alpascual/Pet Projects/MVPEvents/FeedsConfig.m317368143#317368143#0(0"0(0#0#53"/Users/alpascual/Pet Projects/MVPEvents/FeedsConfig.m8617534400#1811"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv7" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-apgoawqlkbciezdvzkonclseihhw/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/FeedsConfig.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/FeedsConfig.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/FeedsParser.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/FeedsParser.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317368142.802955
+e317368142.898076
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/FeedsParser.o
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/FeedsParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/FeedsParser.m317368142#317368142#0(0"0(0#0#72"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/FeedsParser.m8611023104#1830"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv7" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-apgoawqlkbciezdvzkonclseihhw/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/FeedsParser.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/FeedsParser.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/GTMNSString+HTML.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/GTMNSString+HTML.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317368142.831062
+e317368142.920845
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/GTMNSString+HTML.o
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/GTMNSString+HTML.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/GTMNSString+HTML.m317368142#317368142#0(0"0(0#0#84"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/GTMNSString+HTML.m8605220192#1847"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv7" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-apgoawqlkbciezdvzkonclseihhw/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/GTMNSString+HTML.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/GTMNSString+HTML.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/MWFeedInfo.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedInfo.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317368142.898185
+e317368142.978711
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/MWFeedInfo.o
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedInfo.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedInfo.m317368142#317368142#0(0"0(0#0#78"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedInfo.m8621209056#1835"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv7" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-apgoawqlkbciezdvzkonclseihhw/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedInfo.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/MWFeedInfo.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/MWFeedItem.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedItem.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317368142.920943
+e317368143.015092
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/MWFeedItem.o
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedItem.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedItem.m317368142#317368143#0(0"0(0#0#78"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedItem.m8620859360#1835"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv7" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-apgoawqlkbciezdvzkonclseihhw/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedItem.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/MWFeedItem.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/MWFeedParser.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedParser.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317368142.978809
+e317368143.247731
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/MWFeedParser.o
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedParser.m317368142#317368143#0(0"0(0#0#80"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedParser.m8620119808#1839"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv7" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-apgoawqlkbciezdvzkonclseihhw/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/MWFeedParser.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/MWFeedParser.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/NSDate+InternetDateTime.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSDate+InternetDateTime.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317368143.015190
+e317368143.081041
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/NSDate+InternetDateTime.o
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSDate+InternetDateTime.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSDate+InternetDateTime.m317368143#317368143#0(0"0(0#0#91"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSDate+InternetDateTime.m8619526784#1861"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv7" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-apgoawqlkbciezdvzkonclseihhw/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSDate+InternetDateTime.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/NSDate+InternetDateTime.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/NSString+HTML.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSString+HTML.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317368143.081135
+e317368143.168093
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/NSString+HTML.o
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSString+HTML.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSString+HTML.m317368143#317368143#0(0"0(0#0#81"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSString+HTML.m8618790752#1841"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv7" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-apgoawqlkbciezdvzkonclseihhw/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSString+HTML.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/NSString+HTML.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/NSString+XMLEntities.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSString+XMLEntities.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317368143.168191
+e317368143.215879
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/NSString+XMLEntities.o
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSString+XMLEntities.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSString+XMLEntities.m317368143#317368143#0(0"0(0#0#88"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSString+XMLEntities.m8617825088#1855"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv7" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-apgoawqlkbciezdvzkonclseihhw/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/Shared/NSString+XMLEntities.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/NSString+XMLEntities.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/SearchController.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/SearchController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/iPadFeedsController.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadFeedsController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317368142.712558
+e317368142.830964
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/iPadFeedsController.o
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadFeedsController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadFeedsController.m317368142#317368142#0(0"0(0#0#80"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadFeedsController.m8617909280#1846"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv7" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-apgoawqlkbciezdvzkonclseihhw/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadFeedsController.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/iPadFeedsController.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/iPadSurface.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadSurface.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317368142.713718
+e317368142.802851
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/iPadSurface.o
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadSurface.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadSurface.m317368142#317368142#0(0"0(0#0#72"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadSurface.m8617710656#1830"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv7" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-apgoawqlkbciezdvzkonclseihhw/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadSurface.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/iPadSurface.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/iPhoneAbout.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneAbout.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317368142.522862
+e317368142.619442
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/iPhoneAbout.o
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneAbout.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneAbout.m317368142#317368142#0(0"0(0#0#79"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneAbout.m8621631488#1837"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv7" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-apgoawqlkbciezdvzkonclseihhw/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneAbout.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/iPhoneAbout.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/iPhoneFeedsController.o "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317368142.596457
+e317368142.713639
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/iPhoneFeedsController.o
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m: In function '-[iPhoneFeedsController tableView:cellForRowAtIndexPath:]':
+o/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m:120: warning: 'NSString' may not respond to '-stringByConvertingHTMLToPlainText'
+o/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m:120: warning: (Messages without a matching method signature
+o/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m:120: warning: will be assumed to return 'id' and accept
+o/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m:120: warning: '...' as arguments.)
+o/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m:121: warning: 'NSString' may not respond to '-stringByConvertingHTMLToPlainText'
+lSLF07#2@97"Compile /Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m317368142#317368142#0(927"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m: In function '-[iPhoneFeedsController tableView:cellForRowAtIndexPath:]':/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m:120: warning: 'NSString' may not respond to '-stringByConvertingHTMLToPlainText'/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m:120: warning: (Messages without a matching method signature/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m:120: warning: will be assumed to return 'id' and accept/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m:120: warning: '...' as arguments.)/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m:121: warning: 'NSString' may not respond to '-stringByConvertingHTMLToPlainText'3(22@66"'NSString' may not respond to '-stringByConvertingHTMLToPlainText'317368142#164#171#0(6@89"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m317338188#120#0#120#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)317368142#335#150#0(6@89"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m317338188#120#0#120#0#0"0(22@66"'NSString' may not respond to '-stringByConvertingHTMLToPlainText'317368142#756#171#0(6@89"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m317338188#121#0#121#0#26"'*' may not respond to '*'0(0#0#89"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m8620419200#1857"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv7" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-apgoawqlkbciezdvzkonclseihhw/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/iPhoneFeedsController.o"0#
+
+CCompileC build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/main.o "/Users/alpascual/Pet Projects/MVPEvents/Shared/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317368142.308010
+e317368142.365417
+r1
+xCompileC
+xbuild/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/main.o
+x/Users/alpascual/Pet Projects/MVPEvents/Shared/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/alpascual/Pet Projects/MVPEvents/Shared/main.m317368142#317368142#0(0"0(0#0#53"/Users/alpascual/Pet Projects/MVPEvents/Shared/main.m8620161152#1804"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv7" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-apgoawqlkbciezdvzkonclseihhw/MVPEvents_Prefix.pch -c "/Users/alpascual/Pet Projects/MVPEvents/Shared/main.m" -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/main.o"0#
+
+CCompileXIB "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/MainWindow_iPad.xib"
+s317368139.612620
+e317368140.116360
+r1
+xCompileXIB
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/MainWindow_iPad.xib
+lSLF07#2@54"CompileXIB ../SilverlightNews/iPad/MainWindow_iPad.xib317368139#317368140#0(0"0(0#0#83"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/MainWindow_iPad.xib8620528800#587"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/MainWindow_iPad.nib" "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPad/MainWindow_iPad.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadFeedsController.xib"
+s317368139.856591
+e317368140.260725
+r1
+xCompileXIB
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadFeedsController.xib
+lSLF07#2@53"CompileXIB ../SilverlightNews/iPadFeedsController.xib317368139#317368140#0(0"0(0#0#82"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadFeedsController.xib8604544800#590"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/iPadFeedsController.nib" "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadFeedsController.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadSurface.xib"
+s317368140.116448
+e317368140.523385
+r1
+xCompileXIB
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadSurface.xib
+lSLF07#2@45"CompileXIB ../SilverlightNews/iPadSurface.xib317368140#317368140#0(0"0(0#0#74"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadSurface.xib8620858560#574"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/iPadSurface.nib" "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPadSurface.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/DetailTableViewController.xib"
+s317368138.796140
+e317368139.308211
+r1
+xCompileXIB
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/DetailTableViewController.xib
+lSLF07#2@66"CompileXIB ../SilverlightNews/iPhone/DetailTableViewController.xib317368138#317368139#0(0"0(0#0#95"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/DetailTableViewController.xib8618889632#609"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/DetailTableViewController.nib" "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/DetailTableViewController.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/MainWindow_iPhone.xib"
+s317368139.308294
+e317368139.856507
+r1
+xCompileXIB
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/MainWindow_iPhone.xib
+lSLF07#2@58"CompileXIB ../SilverlightNews/iPhone/MainWindow_iPhone.xib317368139#317368139#0(0"0(0#0#87"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/MainWindow_iPhone.xib8620747872#593"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/MainWindow_iPhone.nib" "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/MainWindow_iPhone.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/SearchController.xib"
+r0
+
+CCompileXIB "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneAbout.xib"
+s317368138.796870
+e317368139.214722
+r1
+xCompileXIB
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneAbout.xib
+lSLF07#2@52"CompileXIB ../SilverlightNews/iPhone/iPhoneAbout.xib317368138#317368139#0(0"0(0#0#81"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneAbout.xib8618713472#581"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/iPhoneAbout.nib" "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneAbout.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.xib"
+s317368139.214812
+e317368139.612527
+r1
+xCompileXIB
+x/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.xib
+lSLF07#2@62"CompileXIB ../SilverlightNews/iPhone/iPhoneFeedsController.xib317368139#317368139#0(0"0(0#0#91"/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.xib8620900160#601"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/iPhoneFeedsController.nib" "/Users/alpascual/Pet Projects/MVPEvents/../SilverlightNews/iPhone/iPhoneFeedsController.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/Default.png" ../DeviceAlarm/Resources/Default.png
+r0
+
+CCopyPNGFile "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/Icon-72.png" Resources/Icon-72.png
+s317368140.262539
+e317368140.305502
+r1
+xCopyPNGFile
+x/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/Icon-72.png
+xResources/Icon-72.png
+lSLF07#2@80"CopyPNGFile build/Debug-iphoneos/MVPEvents.app/Icon-72.png Resources/Icon-72.png317368140#317368140#0(0"0(0#0#61"/Users/alpascual/Pet Projects/MVPEvents/Resources/Icon-72.png8622494720#583"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/alpascual/Pet Projects/MVPEvents/Resources/Icon-72.png" "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/Icon-72.png"0#
+
+CCopyPNGFile "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/Icon.png" Resources/Icon.png
+s317368140.305655
+e317368140.343873
+r1
+xCopyPNGFile
+x/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/Icon.png
+xResources/Icon.png
+lSLF07#2@74"CopyPNGFile build/Debug-iphoneos/MVPEvents.app/Icon.png Resources/Icon.png317368140#317368140#0(0"0(0#0#58"/Users/alpascual/Pet Projects/MVPEvents/Resources/Icon.png8621235776#577"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/alpascual/Pet Projects/MVPEvents/Resources/Icon.png" "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/Icon.png"0#
+
+CCopyPNGFile "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/Icon@2x.png" Resources/Icon@2x.png
+s317368140.343968
+e317368140.410451
+r1
+xCopyPNGFile
+x/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/Icon@2x.png
+xResources/Icon@2x.png
+lSLF07#2@80"CopyPNGFile build/Debug-iphoneos/MVPEvents.app/Icon@2x.png Resources/Icon@2x.png317368140#317368140#0(0"0(0#0#61"/Users/alpascual/Pet Projects/MVPEvents/Resources/Icon@2x.png8621087552#583"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/alpascual/Pet Projects/MVPEvents/Resources/Icon@2x.png" "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/Icon@2x.png"0#
+
+CCpResource build/Debug-iphoneos/MVPEvents.app/About.htm Resources/About.htm
+s317368140.260807
+e317368140.270441
+r1
+xCpResource
+xbuild/Debug-iphoneos/MVPEvents.app/About.htm
+xResources/About.htm
+lSLF07#2@24"Copy Resources/About.htm317368140#317368140#0(0"0(0#0#59"/Users/alpascual/Pet Projects/MVPEvents/Resources/About.htm8613283552#474"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alpascual/Pet Projects/MVPEvents/Resources/About.htm" "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app"0#
+
+CCpResource build/Debug-iphoneos/MVPEvents.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s317368138.773645
+e317368138.796041
+r1
+xCpResource
+xbuild/Debug-iphoneos/MVPEvents.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist317368138#317368138#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8620143424#502"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app"0#
+
+CCreateUniversalBinary "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/MVPEvents" normal "armv6 armv7"
+s317368143.313076
+e317368143.316772
+r1
+xCreateUniversalBinary
+x/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/MVPEvents
+xnormal
+xarmv6 armv7
+lSLF07#2@87"CreateUniversalBinary build/Debug-iphoneos/MVPEvents.app/MVPEvents normal "armv6 armv7"317368143#317368143#0(0"0(0#0#51"/Users/alpascual/Pet Projects/MVPEvents/armv6 armv78606943680#546"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/MVPEvents" "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/MVPEvents" -output "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/MVPEvents"0#
+
+CDataModelVersionCompile "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/MVPEvents.momd" "/Users/alpascual/Pet Projects/MVPEvents/Shared/MVPEvents.xcdatamodeld"
+s317368141.360759
+e317368141.416524
+r1
+xDataModelVersionCompile
+x/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/MVPEvents.momd
+x/Users/alpascual/Pet Projects/MVPEvents/Shared/MVPEvents.xcdatamodeld
+lSLF07#2@103"DataModelVersionCompile build/Debug-iphoneos/MVPEvents.app/MVPEvents.momd Shared/MVPEvents.xcdatamodeld317368141#317368141#0(0"0(0#0#69"/Users/alpascual/Pet Projects/MVPEvents/Shared/MVPEvents.xcdatamodeld8605101440#365"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc "/Users/alpascual/Pet Projects/MVPEvents/Shared/MVPEvents.xcdatamodeld" "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/MVPEvents.momd"0#
+
+CGenerateDSYMFile "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app.dSYM" "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/MVPEvents"
+s317368143.316863
+e317368143.404200
+r1
+xGenerateDSYMFile
+x/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app.dSYM
+x/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/MVPEvents
+lSLF07#2@101"GenerateDSYMFile build/Debug-iphoneos/MVPEvents.app.dSYM build/Debug-iphoneos/MVPEvents.app/MVPEvents317368143#317368143#0(0"0(0#0#84"/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/MVPEvents8604260928#377"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/MVPEvents" -o "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app.dSYM"0#
+
+CLd "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/MVPEvents" normal armv6
+s317368142.344566
+e317368142.395142
+r1
+xLd
+x/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/MVPEvents
+xnormal
+xarmv6
+lSLF07#2@128"Link /Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/MVPEvents317368142#317368142#0(0"0(0#0#0"8619611424#906"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" -filelist "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/MVPEvents.LinkFileList" -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv6/MVPEvents"0#
+
+CLd "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/MVPEvents" normal armv7
+s317368143.265327
+e317368143.312981
+r1
+xLd
+x/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/MVPEvents
+xnormal
+xarmv7
+lSLF07#2@128"Link /Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/MVPEvents317368143#317368143#0(0"0(0#0#0"8617410560#906"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" -filelist "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/MVPEvents.LinkFileList" -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/Objects-normal/armv7/MVPEvents"0#
+
+CProcessInfoPlistFile "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/Info.plist" MVPEvents-Info.plist
+s317368138.775451
+e317368138.782924
+r1
+xProcessInfoPlistFile
+x/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/Info.plist
+xMVPEvents-Info.plist
+lSLF07#2@28"Process MVPEvents-Info.plist317368138#317368138#0(0"0(0#0#60"/Users/alpascual/Pet Projects/MVPEvents/MVPEvents-Info.plist8619768864#582"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MVPEvents-Info.plist -genpkginfo "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/ResourceRules.plist" -o "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/Info.plist"0#
+
+CProcessPCH /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-aonwchjsbgwgndhdrilgqjtbyvvq/MVPEvents_Prefix.pch.gch MVPEvents_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s317368140.523498
+e317368141.334758
+r1
+xProcessPCH
+x/var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-aonwchjsbgwgndhdrilgqjtbyvvq/MVPEvents_Prefix.pch.gch
+xMVPEvents_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile MVPEvents_Prefix.pch317368140#317368141#0(0"0(0#0#60"/Users/alpascual/Pet Projects/MVPEvents/MVPEvents_Prefix.pch8620556512#1690"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv6" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -c "/Users/alpascual/Pet Projects/MVPEvents/MVPEvents_Prefix.pch" -o /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-aonwchjsbgwgndhdrilgqjtbyvvq/MVPEvents_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-apgoawqlkbciezdvzkonclseihhw/MVPEvents_Prefix.pch.gch MVPEvents_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s317368140.524541
+e317368141.360622
+r1
+xProcessPCH
+x/var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-apgoawqlkbciezdvzkonclseihhw/MVPEvents_Prefix.pch.gch
+xMVPEvents_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile MVPEvents_Prefix.pch317368140#317368141#0(0"0(0#0#60"/Users/alpascual/Pet Projects/MVPEvents/MVPEvents_Prefix.pch8619885120#1690"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-generated-files.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents-project-headers.hmap" "-F/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos" "-I/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/include" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources/armv7" "-I/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/DerivedSources" -c "/Users/alpascual/Pet Projects/MVPEvents/MVPEvents_Prefix.pch" -o /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MVPEvents_Prefix-apgoawqlkbciezdvzkonclseihhw/MVPEvents_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/alpascual/Library/MobileDevice/Provisioning Profiles/3CB1BF22-4A1E-4EC3-9A9E-50E6777AFFBC.mobileprovision" "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/embedded.mobileprovision"
+s317368143.404616
+e317368143.405628
+r1
+xProcessProductPackaging
+x/Users/alpascual/Library/MobileDevice/Provisioning Profiles/3CB1BF22-4A1E-4EC3-9A9E-50E6777AFFBC.mobileprovision
+x/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/embedded.mobileprovision
+lSLF07#2@198"ProcessProductPackaging "/Users/alpascual/Library/MobileDevice/Provisioning Profiles/3CB1BF22-4A1E-4EC3-9A9E-50E6777AFFBC.mobileprovision" build/Debug-iphoneos/MVPEvents.app/embedded.mobileprovision317368143#317368143#0(0"0(0#0#99"/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/embedded.mobileprovision8620666368#435"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/alpascual/Library/MobileDevice/Provisioning Profiles/3CB1BF22-4A1E-4EC3-9A9E-50E6777AFFBC.mobileprovision" -o "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents.xcent"
+s317368143.408939
+e317368143.425726
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents.xcent
+lSLF07#2@181"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents.xcent317368143#317368143#0(0"0(0#0#108"/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents.xcent8619237760#444"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o "/Users/alpascual/Pet Projects/MVPEvents/build/MVPEvents.build/Debug-iphoneos/MVPEvents.build/MVPEvents.xcent"0#
+
+CTouch "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app"
+s317368143.405689
+e317368143.408853
+r1
+xTouch
+x/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app
+lSLF07#2@80"Touch /Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app317368143#317368143#0(0"0(0#0#0"8620468160#272"    cd "/Users/alpascual/Pet Projects/MVPEvents"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/alpascual/Pet Projects/MVPEvents/build/Debug-iphoneos/MVPEvents.app"0#
+
