@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -41,6 +41,9 @@
 		76B5F9C812EAA5EC001EDD77 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 76B5F9C512EAA5EC001EDD77 /* Icon-72.png */; };
 		76B5F9C912EAA5EC001EDD77 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 76B5F9C612EAA5EC001EDD77 /* Icon.png */; };
 		76B5F9CA12EAA5EC001EDD77 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76B5F9C712EAA5EC001EDD77 /* Icon@2x.png */; };
+		76C87063147CB428004B6ABA /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C87062147CB428004B6ABA /* iAd.framework */; };
+		76C87066147CB6E0004B6ABA /* 18-envelope.png in Resources */ = {isa = PBXBuildFile; fileRef = 76C87064147CB6E0004B6ABA /* 18-envelope.png */; };
+		76C87067147CB6E0004B6ABA /* 111-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 76C87065147CB6E0004B6ABA /* 111-user.png */; };
 		76EC845D1314C3FD0094A396 /* SearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EC845B1314C3FD0094A396 /* SearchController.m */; };
 		76EC845E1314C3FD0094A396 /* SearchController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76EC845C1314C3FD0094A396 /* SearchController.xib */; };
 		76EC84641314C41C0094A396 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76EC84631314C41C0094A396 /* MessageUI.framework */; };
@@ -104,6 +107,9 @@
 		76B5F9C512EAA5EC001EDD77 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 		76B5F9C612EAA5EC001EDD77 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		76B5F9C712EAA5EC001EDD77 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		76C87062147CB428004B6ABA /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		76C87064147CB6E0004B6ABA /* 18-envelope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "18-envelope.png"; sourceTree = "<group>"; };
+		76C87065147CB6E0004B6ABA /* 111-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "111-user.png"; sourceTree = "<group>"; };
 		76EC845A1314C3FD0094A396 /* SearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchController.h; path = ../SilverlightNews/iPhone/SearchController.h; sourceTree = SOURCE_ROOT; };
 		76EC845B1314C3FD0094A396 /* SearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchController.m; path = ../SilverlightNews/iPhone/SearchController.m; sourceTree = SOURCE_ROOT; };
 		76EC845C1314C3FD0094A396 /* SearchController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SearchController.xib; path = ../SilverlightNews/iPhone/SearchController.xib; sourceTree = SOURCE_ROOT; };
@@ -117,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76C87063147CB428004B6ABA /* iAd.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
@@ -197,6 +204,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				76C87062147CB428004B6ABA /* iAd.framework */,
 				76EC84921314C8BA0094A396 /* Default.png */,
 				7686CCFA12E9558B00EA0CBC /* Resources */,
 				2860E386111B897F00E27156 /* iPhone */,
@@ -253,6 +261,8 @@
 		7686CCFA12E9558B00EA0CBC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				76C87064147CB6E0004B6ABA /* 18-envelope.png */,
+				76C87065147CB6E0004B6ABA /* 111-user.png */,
 				76B5F9C512EAA5EC001EDD77 /* Icon-72.png */,
 				76B5F9C612EAA5EC001EDD77 /* Icon.png */,
 				76B5F9C712EAA5EC001EDD77 /* Icon@2x.png */,
@@ -286,8 +296,11 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MVPEvents" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -295,6 +308,8 @@
 				Japanese,
 				French,
 				German,
+				en,
+				de,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
@@ -323,6 +338,8 @@
 				76B5F9CA12EAA5EC001EDD77 /* Icon@2x.png in Resources */,
 				76EC845E1314C3FD0094A396 /* SearchController.xib in Resources */,
 				76EC84931314C8BA0094A396 /* Default.png in Resources */,
+				76C87066147CB6E0004B6ABA /* 18-envelope.png in Resources */,
+				76C87067147CB6E0004B6ABA /* 111-user.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,12 +380,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MVPEvents_Prefix.pch;
 				INFOPLIST_FILE = "MVPEvents-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../GoogleAdMobAdsSDK\"",
+					"\"$(SRCROOT)/../KidMathGame/KidMathGame/AQG\"",
+					"\"$(SRCROOT)/../TheRing/Twitter+OAuth/Libraries & Headers\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = MVPEvents;
 			};
 			name = Debug;
@@ -377,10 +406,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MVPEvents_Prefix.pch;
 				INFOPLIST_FILE = "MVPEvents-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../GoogleAdMobAdsSDK\"",
+					"\"$(SRCROOT)/../KidMathGame/KidMathGame/AQG\"",
+					"\"$(SRCROOT)/../TheRing/Twitter+OAuth/Libraries & Headers\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = MVPEvents;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -395,7 +436,6 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PREBINDING = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -405,11 +445,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MVPEvents_Prefix.pch;
 				INFOPLIST_FILE = "MVPEvents-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../GoogleAdMobAdsSDK\"",
+					"\"$(SRCROOT)/../KidMathGame/KidMathGame/AQG\"",
+					"\"$(SRCROOT)/../TheRing/Twitter+OAuth/Libraries & Headers\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = MVPEvents;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				VALIDATE_PRODUCT = YES;
@@ -424,7 +476,6 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -439,7 +490,6 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PREBINDING = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
