@@ -12,6 +12,7 @@
 @implementation AppDelegate_Shared
 
 @synthesize window;
+@synthesize trackingManager = _trackingManager;
 
 
 #pragma mark -
@@ -25,8 +26,61 @@
 }
 
 
+//http://stackoverflow.com/questions/4656214/iphone-backgrounding-to-poll-for-events
 - (void)applicationDidEnterBackground:(UIApplication *)application {
-    [self saveContext];
+    
+    UIApplication*    app = [UIApplication sharedApplication];
+    NSLog(@"\n\nBackground called!\n\n");
+    
+    if ( self.trackingManager == nil )
+    {
+        self.trackingManager = [[TrackingManager alloc] init];
+        [self.trackingManager startUpTracking];
+    }
+    
+    // it's better to move "dispatch_block_t expirationHandler"
+    // into your headerfile and initialize the code somewhere else
+    // i.e. 
+    // - (void)applicationDidFinishLaunching:(UIApplication *)application {
+    //
+    // expirationHandler = ^{ ... } }
+    // because your app may crash if you initialize expirationHandler twice.
+    __block UIBackgroundTaskIdentifier bgTask; //Create a task object
+    dispatch_block_t expirationHandler;
+    expirationHandler = ^{
+        
+        [app endBackgroundTask:bgTask];
+        bgTask = UIBackgroundTaskInvalid;
+        
+        
+        bgTask = [app beginBackgroundTaskWithExpirationHandler:expirationHandler];
+    };
+    
+    bgTask = [app beginBackgroundTaskWithExpirationHandler:expirationHandler];
+    
+    
+    // Start the long-running task and return immediately.
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        
+        // inform others to stop tasks, if you like
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"MyApplicationEntersBackground" object:self];
+        
+        // write the code here
+        while ([[UIApplication sharedApplication] applicationState] == UIApplicationStateBackground)
+        {
+            //NSLog(@"backgroundTimeRemaining: %f", [[UIApplication sharedApplication] backgroundTimeRemaining]);
+            
+            
+            //[UIApplication sharedApplication].applicationIconBadgeNumber = self.trackingManager.offlineFeatureLayer.addedFeaturesArray.count;
+            
+            //NSLog(@"Feature collected: %d", self.trackingManager.offlineFeatureLayer.addedFeaturesArray.count);
+            
+            
+            [NSThread sleepForTimeInterval:10.0];                            
+        }   
+        
+        NSLog(@"\n\n endBackgroundTask going to be calledback \n\n");
+    }); 
 }
 
 

@@ -14,6 +14,9 @@
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28EEBFDD1118E19E00187D67 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EEBFDC1118E19E00187D67 /* CoreData.framework */; };
 		28EEC04B1118E28000187D67 /* AppDelegate_Shared.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EEC04A1118E28000187D67 /* AppDelegate_Shared.m */; };
+		766DAC6D14CE6CE500E1FD3A /* TrackingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 766DAC6C14CE6CE500E1FD3A /* TrackingManager.m */; };
+		766DAC6F14CE6D6D00E1FD3A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 766DAC6E14CE6D6D00E1FD3A /* CoreLocation.framework */; };
+		766DAC7114CE6D8A00E1FD3A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 766DAC7014CE6D8A00E1FD3A /* SystemConfiguration.framework */; };
 		7686CC3112E94DBB00EA0CBC /* AppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 7686CC2612E94DBB00EA0CBC /* AppDelegate_iPhone.m */; };
 		7686CC3212E94DBB00EA0CBC /* DetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7686CC2812E94DBB00EA0CBC /* DetailTableViewController.m */; };
 		7686CC3312E94DBB00EA0CBC /* DetailTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7686CC2912E94DBB00EA0CBC /* DetailTableViewController.xib */; };
@@ -61,6 +64,10 @@
 		28EEC04A1118E28000187D67 /* AppDelegate_Shared.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate_Shared.m; path = Shared/AppDelegate_Shared.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Shared/main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* MVPEvents_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPEvents_Prefix.pch; sourceTree = "<group>"; };
+		766DAC6B14CE6CE500E1FD3A /* TrackingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrackingManager.h; path = Shared/TrackingManager.h; sourceTree = "<group>"; };
+		766DAC6C14CE6CE500E1FD3A /* TrackingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrackingManager.m; path = Shared/TrackingManager.m; sourceTree = "<group>"; };
+		766DAC6E14CE6D6D00E1FD3A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		766DAC7014CE6D8A00E1FD3A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		7686CC2512E94DBB00EA0CBC /* AppDelegate_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate_iPhone.h; path = ../SilverlightNews/iPhone/AppDelegate_iPhone.h; sourceTree = SOURCE_ROOT; };
 		7686CC2612E94DBB00EA0CBC /* AppDelegate_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate_iPhone.m; path = ../SilverlightNews/iPhone/AppDelegate_iPhone.m; sourceTree = SOURCE_ROOT; };
 		7686CC2712E94DBB00EA0CBC /* DetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailTableViewController.h; path = ../SilverlightNews/iPhone/DetailTableViewController.h; sourceTree = SOURCE_ROOT; };
@@ -123,6 +130,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				766DAC7114CE6D8A00E1FD3A /* SystemConfiguration.framework in Frameworks */,
+				766DAC6F14CE6D6D00E1FD3A /* CoreLocation.framework in Frameworks */,
 				76C87063147CB428004B6ABA /* iAd.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
@@ -168,6 +177,8 @@
 		28EEBF621118D79A00187D67 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				766DAC6B14CE6CE500E1FD3A /* TrackingManager.h */,
+				766DAC6C14CE6CE500E1FD3A /* TrackingManager.m */,
 				7686CC7D12E9504900EA0CBC /* Config */,
 				7686CC5712E94EAE00EA0CBC /* GTMDefines.h */,
 				7686CC5812E94EAE00EA0CBC /* GTMNSString+HTML.h */,
@@ -204,6 +215,8 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				766DAC7014CE6D8A00E1FD3A /* SystemConfiguration.framework */,
+				766DAC6E14CE6D6D00E1FD3A /* CoreLocation.framework */,
 				76C87062147CB428004B6ABA /* iAd.framework */,
 				76EC84921314C8BA0094A396 /* Default.png */,
 				7686CCFA12E9558B00EA0CBC /* Resources */,
@@ -370,6 +383,7 @@
 				7686CC7212E94EAE00EA0CBC /* NSString+XMLEntities.m in Sources */,
 				7686CC8012E9505900EA0CBC /* FeedsConfig.m in Sources */,
 				76EC845D1314C3FD0094A396 /* SearchController.m in Sources */,
+				766DAC6D14CE6CE500E1FD3A /* TrackingManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,7 +404,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MVPEvents_Prefix.pch;
 				INFOPLIST_FILE = "MVPEvents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../GoogleAdMobAdsSDK\"",
@@ -414,7 +428,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MVPEvents_Prefix.pch;
 				INFOPLIST_FILE = "MVPEvents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../GoogleAdMobAdsSDK\"",
@@ -454,7 +468,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MVPEvents_Prefix.pch;
 				INFOPLIST_FILE = "MVPEvents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../GoogleAdMobAdsSDK\"",
