@@ -16,7 +16,7 @@
 	NSMutableArray *feedList = [[[NSMutableArray alloc] init] autorelease];
 	
 	[feedList addObject:@"http://mvpsummitevents.info/rss.ashx"];
-	[feedList addObject:@"feed:https://twitter.com/statuses/user_timeline/14820993.rss"];
+	//[feedList addObject:@"feed:https://twitter.com/statuses/user_timeline/14820993.rss"];
 	
 	
 	return feedList;
