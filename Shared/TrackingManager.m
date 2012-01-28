@@ -24,14 +24,16 @@
 
 - (void) startUpTracking
 {   
-    // Set up GPS for tracking with the best settings    
-    self.locMgr = [[CLLocationManager alloc] init]; // Create new instance of locMgr
-    self.locMgr.delegate = self; // Set the delegate as self.
-    
-    //self.locMgr.desiredAccuracy = kCLLocationAccuracyKilometer;
-    self.locMgr.distanceFilter = 10.0f;
-    self.gpsTimerInterval = (60 * 5);
-    self.gpsCounter = 0;
+    // Set up GPS for tracking with the best settings 
+    if ( self.locMgr == nil ) {
+        self.locMgr = [[CLLocationManager alloc] init]; // Create new instance of locMgr
+        self.locMgr.delegate = self; // Set the delegate as self.
+        
+        //self.locMgr.desiredAccuracy = kCLLocationAccuracyKilometer;
+        self.locMgr.distanceFilter = 10.0f;
+        self.gpsTimerInterval = (60 * 5);
+        self.gpsCounter = 0;
+    }
     
     [self.locMgr startUpdatingLocation];
     
@@ -39,6 +41,11 @@
     // Check for internet
     //self.submitInterval = (5*60);
     //self.checkOnlineAvailableTimer = [NSTimer scheduledTimerWithTimeInterval:self.submitInterval target:self selector:@selector(tryToCommitInterval:) userInfo:nil repeats:YES];
+}
+
+- (void) stopUpTracking {
+    if ( self.locMgr != nil )
+        [self.locMgr stopUpdatingLocation];
 }
 
 

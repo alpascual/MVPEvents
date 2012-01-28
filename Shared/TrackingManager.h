@@ -33,6 +33,7 @@
 
 
 - (void) startUpTracking;
+- (void) stopUpTracking;
 - (void) changeDesiredAccuracy:(CLLocationAccuracy) accuracy;
 - (void) changeGpsIntervalInSeconds:(NSTimeInterval)interval;
 - (void) changeDistanceFilter:(CLLocationDistance)filter;

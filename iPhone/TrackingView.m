@@ -10,6 +10,9 @@
 
 @implementation TrackingView
 
+@synthesize trackingManager = _trackingManager;
+@synthesize mySwitch = _mySwitch;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -32,7 +35,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
+    NSUserDefaults *userDefaults = [[[NSUserDefaults alloc] init] autorelease];
+    if ( [userDefaults objectForKey:@"gps"] != nil) {
+        if ( [[userDefaults objectForKey:@"gps"] isEqualToString:@"1"]) {
+            [self.mySwitch setOn:YES];
+        }
+        else
+        {
+            [self.mySwitch setOn:NO];
+        }
+    }
+    
+    if ( self.trackingManager == nil ) {
+        self.trackingManager = [[TrackingManager alloc] init];
+    }
 }
 
 - (void)viewDidUnload
@@ -46,6 +63,33 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+- (IBAction)gpsChanged:(id)sender {
+    UISwitch *gpsSwitch = sender;
+    
+    NSUserDefaults *userDefaults = [[[NSUserDefaults alloc] init] autorelease];
+    
+    if ( gpsSwitch.isOn ) {
+        [userDefaults setObject:@"1" forKey:@"gps"];
+        
+        [self.trackingManager startUpTracking];
+    }
+    else
+    {
+        [userDefaults setObject:@"0" forKey:@"gps"];
+        
+        [self.trackingManager stopUpTracking];
+    }
+    
+    [userDefaults synchronize];
+        
+}
+
+- (IBAction)downloadPress:(id)sender {
+    
+    NSURL *url = [[NSURL alloc] initWithString:@"http://sprinkleware.com/post/16234709503/event-tracker-placeholder"];
+    [[UIApplication sharedApplication] openURL:url];
 }
 
 @end

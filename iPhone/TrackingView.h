@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+#import "TrackingManager.h"
+
 @interface TrackingView : UIViewController
+
+@property (nonatomic, retain) TrackingManager *trackingManager;
+@property (nonatomic, retain) IBOutlet UISwitch *mySwitch;
 
 @end
