@@ -14,6 +14,23 @@
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28EEBFDD1118E19E00187D67 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EEBFDC1118E19E00187D67 /* CoreData.framework */; };
 		28EEC04B1118E28000187D67 /* AppDelegate_Shared.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EEC04A1118E28000187D67 /* AppDelegate_Shared.m */; };
+		763212B614D49B370048C75A /* UIView+JMNoise.m in Sources */ = {isa = PBXBuildFile; fileRef = 763212A614D49B370048C75A /* UIView+JMNoise.m */; };
+		763212B714D49B370048C75A /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 763212A814D49B370048C75A /* close.png */; };
+		763212B814D49B370048C75A /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 763212A914D49B370048C75A /* close@2x.png */; };
+		763212B914D49B370048C75A /* UAModalPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 763212AC14D49B370048C75A /* UAModalPanel.m */; };
+		763212BA14D49B370048C75A /* UATitledModalPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 763212AE14D49B370048C75A /* UATitledModalPanel.m */; };
+		763212BB14D49B370048C75A /* UAGradientBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 763212B114D49B370048C75A /* UAGradientBackground.m */; };
+		763212BC14D49B370048C75A /* UANoisyGradientBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 763212B314D49B370048C75A /* UANoisyGradientBackground.m */; };
+		763212BD14D49B370048C75A /* UARoundedRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 763212B514D49B370048C75A /* UARoundedRectView.m */; };
+		763212BF14D49B7D0048C75A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 763212BE14D49B7D0048C75A /* QuartzCore.framework */; };
+		763212CB14D4A1B20048C75A /* TrackingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 763212C914D4A1B20048C75A /* TrackingView.m */; };
+		763212CC14D4A1B20048C75A /* TrackingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 763212CA14D4A1B20048C75A /* TrackingView.xib */; };
+		763212CE14D4A2250048C75A /* lake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 763212CD14D4A2250048C75A /* lake.jpg */; };
+		763212D314D4A2F40048C75A /* MovieTransportBackground-Chapters.png in Resources */ = {isa = PBXBuildFile; fileRef = 763212CF14D4A2F40048C75A /* MovieTransportBackground-Chapters.png */; };
+		763212D414D4A2F40048C75A /* MovieTransportBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 763212D014D4A2F40048C75A /* MovieTransportBackground.png */; };
+		763212D514D4A2F40048C75A /* UILCDBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 763212D114D4A2F40048C75A /* UILCDBackground.png */; };
+		763212D614D4A2F40048C75A /* UITableSelection.png in Resources */ = {isa = PBXBuildFile; fileRef = 763212D214D4A2F40048C75A /* UITableSelection.png */; };
+		763212D814D4A9770048C75A /* 07-map-marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 763212D714D4A9770048C75A /* 07-map-marker.png */; };
 		766DAC6D14CE6CE500E1FD3A /* TrackingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 766DAC6C14CE6CE500E1FD3A /* TrackingManager.m */; };
 		766DAC6F14CE6D6D00E1FD3A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 766DAC6E14CE6D6D00E1FD3A /* CoreLocation.framework */; };
 		766DAC7114CE6D8A00E1FD3A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 766DAC7014CE6D8A00E1FD3A /* SystemConfiguration.framework */; };
@@ -64,6 +81,30 @@
 		28EEC04A1118E28000187D67 /* AppDelegate_Shared.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate_Shared.m; path = Shared/AppDelegate_Shared.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Shared/main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* MVPEvents_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPEvents_Prefix.pch; sourceTree = "<group>"; };
+		763212A514D49B370048C75A /* UIView+JMNoise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JMNoise.h"; sourceTree = "<group>"; };
+		763212A614D49B370048C75A /* UIView+JMNoise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JMNoise.m"; sourceTree = "<group>"; };
+		763212A814D49B370048C75A /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		763212A914D49B370048C75A /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
+		763212AB14D49B370048C75A /* UAModalPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAModalPanel.h; sourceTree = "<group>"; };
+		763212AC14D49B370048C75A /* UAModalPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAModalPanel.m; sourceTree = "<group>"; };
+		763212AD14D49B370048C75A /* UATitledModalPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UATitledModalPanel.h; sourceTree = "<group>"; };
+		763212AE14D49B370048C75A /* UATitledModalPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UATitledModalPanel.m; sourceTree = "<group>"; };
+		763212B014D49B370048C75A /* UAGradientBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGradientBackground.h; sourceTree = "<group>"; };
+		763212B114D49B370048C75A /* UAGradientBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAGradientBackground.m; sourceTree = "<group>"; };
+		763212B214D49B370048C75A /* UANoisyGradientBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UANoisyGradientBackground.h; sourceTree = "<group>"; };
+		763212B314D49B370048C75A /* UANoisyGradientBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UANoisyGradientBackground.m; sourceTree = "<group>"; };
+		763212B414D49B370048C75A /* UARoundedRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UARoundedRectView.h; sourceTree = "<group>"; };
+		763212B514D49B370048C75A /* UARoundedRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UARoundedRectView.m; sourceTree = "<group>"; };
+		763212BE14D49B7D0048C75A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		763212C814D4A1B20048C75A /* TrackingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackingView.h; sourceTree = "<group>"; };
+		763212C914D4A1B20048C75A /* TrackingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackingView.m; sourceTree = "<group>"; };
+		763212CA14D4A1B20048C75A /* TrackingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrackingView.xib; sourceTree = "<group>"; };
+		763212CD14D4A2250048C75A /* lake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lake.jpg; sourceTree = "<group>"; };
+		763212CF14D4A2F40048C75A /* MovieTransportBackground-Chapters.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MovieTransportBackground-Chapters.png"; sourceTree = "<group>"; };
+		763212D014D4A2F40048C75A /* MovieTransportBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MovieTransportBackground.png; sourceTree = "<group>"; };
+		763212D114D4A2F40048C75A /* UILCDBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UILCDBackground.png; sourceTree = "<group>"; };
+		763212D214D4A2F40048C75A /* UITableSelection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UITableSelection.png; sourceTree = "<group>"; };
+		763212D714D4A9770048C75A /* 07-map-marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "07-map-marker.png"; sourceTree = "<group>"; };
 		766DAC6B14CE6CE500E1FD3A /* TrackingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrackingManager.h; path = Shared/TrackingManager.h; sourceTree = "<group>"; };
 		766DAC6C14CE6CE500E1FD3A /* TrackingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrackingManager.m; path = Shared/TrackingManager.m; sourceTree = "<group>"; };
 		766DAC6E14CE6D6D00E1FD3A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -130,12 +171,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				763212BF14D49B7D0048C75A /* QuartzCore.framework in Frameworks */,
 				766DAC7114CE6D8A00E1FD3A /* SystemConfiguration.framework in Frameworks */,
 				766DAC6F14CE6D6D00E1FD3A /* CoreLocation.framework in Frameworks */,
 				76C87063147CB428004B6ABA /* iAd.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
-				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				28EEBFDD1118E19E00187D67 /* CoreData.framework in Frameworks */,
 				76EC84641314C41C0094A396 /* MessageUI.framework in Frameworks */,
 			);
@@ -170,6 +212,9 @@
 				7686CC2E12E94DBB00EA0CBC /* iPhoneFeedsController.m */,
 				7686CC2F12E94DBB00EA0CBC /* iPhoneFeedsController.xib */,
 				7686CC3012E94DBB00EA0CBC /* MainWindow_iPhone.xib */,
+				763212C814D4A1B20048C75A /* TrackingView.h */,
+				763212C914D4A1B20048C75A /* TrackingView.m */,
+				763212CA14D4A1B20048C75A /* TrackingView.xib */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -215,6 +260,8 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				763212BE14D49B7D0048C75A /* QuartzCore.framework */,
+				763212A314D49B370048C75A /* Panel */,
 				766DAC7014CE6D8A00E1FD3A /* SystemConfiguration.framework */,
 				766DAC6E14CE6D6D00E1FD3A /* CoreLocation.framework */,
 				76C87062147CB428004B6ABA /* iAd.framework */,
@@ -262,6 +309,59 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		763212A314D49B370048C75A /* Panel */ = {
+			isa = PBXGroup;
+			children = (
+				763212A414D49B370048C75A /* Categories */,
+				763212A714D49B370048C75A /* Images */,
+				763212AA14D49B370048C75A /* Panels */,
+				763212AF14D49B370048C75A /* Views */,
+			);
+			path = Panel;
+			sourceTree = "<group>";
+		};
+		763212A414D49B370048C75A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				763212A514D49B370048C75A /* UIView+JMNoise.h */,
+				763212A614D49B370048C75A /* UIView+JMNoise.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		763212A714D49B370048C75A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				763212A814D49B370048C75A /* close.png */,
+				763212A914D49B370048C75A /* close@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		763212AA14D49B370048C75A /* Panels */ = {
+			isa = PBXGroup;
+			children = (
+				763212AB14D49B370048C75A /* UAModalPanel.h */,
+				763212AC14D49B370048C75A /* UAModalPanel.m */,
+				763212AD14D49B370048C75A /* UATitledModalPanel.h */,
+				763212AE14D49B370048C75A /* UATitledModalPanel.m */,
+			);
+			path = Panels;
+			sourceTree = "<group>";
+		};
+		763212AF14D49B370048C75A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				763212B014D49B370048C75A /* UAGradientBackground.h */,
+				763212B114D49B370048C75A /* UAGradientBackground.m */,
+				763212B214D49B370048C75A /* UANoisyGradientBackground.h */,
+				763212B314D49B370048C75A /* UANoisyGradientBackground.m */,
+				763212B414D49B370048C75A /* UARoundedRectView.h */,
+				763212B514D49B370048C75A /* UARoundedRectView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		7686CC7D12E9504900EA0CBC /* Config */ = {
 			isa = PBXGroup;
 			children = (
@@ -274,6 +374,12 @@
 		7686CCFA12E9558B00EA0CBC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				763212D714D4A9770048C75A /* 07-map-marker.png */,
+				763212CF14D4A2F40048C75A /* MovieTransportBackground-Chapters.png */,
+				763212D014D4A2F40048C75A /* MovieTransportBackground.png */,
+				763212D114D4A2F40048C75A /* UILCDBackground.png */,
+				763212D214D4A2F40048C75A /* UITableSelection.png */,
+				763212CD14D4A2250048C75A /* lake.jpg */,
 				76C87064147CB6E0004B6ABA /* 18-envelope.png */,
 				76C87065147CB6E0004B6ABA /* 111-user.png */,
 				76B5F9C512EAA5EC001EDD77 /* Icon-72.png */,
@@ -353,6 +459,15 @@
 				76EC84931314C8BA0094A396 /* Default.png in Resources */,
 				76C87066147CB6E0004B6ABA /* 18-envelope.png in Resources */,
 				76C87067147CB6E0004B6ABA /* 111-user.png in Resources */,
+				763212B714D49B370048C75A /* close.png in Resources */,
+				763212B814D49B370048C75A /* close@2x.png in Resources */,
+				763212CC14D4A1B20048C75A /* TrackingView.xib in Resources */,
+				763212CE14D4A2250048C75A /* lake.jpg in Resources */,
+				763212D314D4A2F40048C75A /* MovieTransportBackground-Chapters.png in Resources */,
+				763212D414D4A2F40048C75A /* MovieTransportBackground.png in Resources */,
+				763212D514D4A2F40048C75A /* UILCDBackground.png in Resources */,
+				763212D614D4A2F40048C75A /* UITableSelection.png in Resources */,
+				763212D814D4A9770048C75A /* 07-map-marker.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +499,13 @@
 				7686CC8012E9505900EA0CBC /* FeedsConfig.m in Sources */,
 				76EC845D1314C3FD0094A396 /* SearchController.m in Sources */,
 				766DAC6D14CE6CE500E1FD3A /* TrackingManager.m in Sources */,
+				763212B614D49B370048C75A /* UIView+JMNoise.m in Sources */,
+				763212B914D49B370048C75A /* UAModalPanel.m in Sources */,
+				763212BA14D49B370048C75A /* UATitledModalPanel.m in Sources */,
+				763212BB14D49B370048C75A /* UAGradientBackground.m in Sources */,
+				763212BC14D49B370048C75A /* UANoisyGradientBackground.m in Sources */,
+				763212BD14D49B370048C75A /* UARoundedRectView.m in Sources */,
+				763212CB14D4A1B20048C75A /* TrackingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
