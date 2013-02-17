@@ -88,7 +88,7 @@
 
 - (IBAction)downloadPress:(id)sender {
     
-    NSURL *url = [[NSURL alloc] initWithString:@"http://sprinkleware.com/post/16234709503/event-tracker-placeholder"];
+    NSURL *url = [[NSURL alloc] initWithString:@"http://itunes.apple.com/us/app/twitter-tracker/id497281979?mt=8&ls=1"];
     [[UIApplication sharedApplication] openURL:url];
 }
 

@@ -58,6 +58,7 @@
 		7686CC7212E94EAE00EA0CBC /* NSString+XMLEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7686CC6712E94EAE00EA0CBC /* NSString+XMLEntities.m */; };
 		7686CC8012E9505900EA0CBC /* FeedsConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7686CC7F12E9505900EA0CBC /* FeedsConfig.m */; };
 		7686CCFC12E9558B00EA0CBC /* About.htm in Resources */ = {isa = PBXBuildFile; fileRef = 7686CCFB12E9558B00EA0CBC /* About.htm */; };
+		7687F3F316D1394A00B74EB1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7687F3F216D1394A00B74EB1 /* Default-568h@2x.png */; };
 		76B5F9C812EAA5EC001EDD77 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 76B5F9C512EAA5EC001EDD77 /* Icon-72.png */; };
 		76B5F9C912EAA5EC001EDD77 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 76B5F9C612EAA5EC001EDD77 /* Icon.png */; };
 		76B5F9CA12EAA5EC001EDD77 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76B5F9C712EAA5EC001EDD77 /* Icon@2x.png */; };
@@ -152,6 +153,7 @@
 		7686CC7E12E9505900EA0CBC /* FeedsConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedsConfig.h; sourceTree = "<group>"; };
 		7686CC7F12E9505900EA0CBC /* FeedsConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedsConfig.m; sourceTree = "<group>"; };
 		7686CCFB12E9558B00EA0CBC /* About.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = About.htm; sourceTree = "<group>"; };
+		7687F3F216D1394A00B74EB1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		76B5F9C512EAA5EC001EDD77 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 		76B5F9C612EAA5EC001EDD77 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		76B5F9C712EAA5EC001EDD77 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
@@ -260,6 +262,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				7687F3F216D1394A00B74EB1 /* Default-568h@2x.png */,
 				763212BE14D49B7D0048C75A /* QuartzCore.framework */,
 				763212A314D49B370048C75A /* Panel */,
 				766DAC7014CE6D8A00E1FD3A /* SystemConfiguration.framework */,
@@ -468,6 +471,7 @@
 				763212D514D4A2F40048C75A /* UILCDBackground.png in Resources */,
 				763212D614D4A2F40048C75A /* UITableSelection.png in Resources */,
 				763212D814D4A9770048C75A /* 07-map-marker.png in Resources */,
+				7687F3F316D1394A00B74EB1 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,7 +530,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MVPEvents_Prefix.pch;
 				INFOPLIST_FILE = "MVPEvents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../GoogleAdMobAdsSDK\"",
@@ -550,7 +554,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MVPEvents_Prefix.pch;
 				INFOPLIST_FILE = "MVPEvents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../GoogleAdMobAdsSDK\"",
@@ -593,7 +597,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MVPEvents_Prefix.pch;
 				INFOPLIST_FILE = "MVPEvents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../GoogleAdMobAdsSDK\"",
